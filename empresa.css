@@ -1,0 +1,40 @@
+
+/*reset css*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    /*fim do reset*/
+
+.container{
+    background-image: linear-gradient(180deg ,#31055dfa 19%, #faed39d1);
+    display: flex;
+    width: 100%;
+    height: 754px;
+    align-items: center;
+    justify-content: center;
+
+}
+.caixa{
+    background-color: rgba(89, 39, 190, 0.671);
+    width: 700px;
+    height: 300px;
+    border-radius: 8px;
+    text-align: center;
+    
+    
+}
+#acesso{
+    font: 600 40px 'lucida',sans-serif ;
+    margin-top: 100px;
+}
